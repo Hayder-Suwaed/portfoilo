@@ -302,6 +302,14 @@ header {
   color: var(--clr-light);
   text-align: center;
 }
+.github {
+  background-color: var(--clr-dark);
+  background-image: url(../img/services-bg.jpg);
+  background-size: cover;
+  /* background-blend-mode: multiply; */
+  color: var(--clr-light);
+  text-align: center;
+}
 
 .section__title--services {
   color: var(--clr-accent);
@@ -417,7 +425,7 @@ header {
 
 /* footer */
 
-.footer {
+.footer, .github{
   background: #111;
   color: var(--clr-accent);
   text-align: center;
@@ -430,12 +438,13 @@ header {
   text-decoration: none;
 }
 
-.footer__link {
+
+.footer__link, .github {
   font-weight: var(--fw-bold);
 }
 
 .footer__link:hover,
-.social-list__link:hover {
+.social-list__link:hover, .github:hover {
   opacity: 0.7;
 }
 
@@ -471,4 +480,14 @@ header {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.github {
+  background-color: #EEEEEE;
+  padding: 8px 20px;
+  text-decoration:none;
+  font-weight:bold;
+  border-radius:5px;
+  cursor:pointer;
+  
 }
