@@ -408,8 +408,7 @@ header {
 }
 
 .portfolio__img {
-  transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), 
-  opacity 250ms linear;
+  transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
 }
 
 .portfolio__item:focus {
@@ -425,7 +424,8 @@ header {
 
 /* footer */
 
-.footer, .github{
+.footer,
+.github {
   background: #b9b7a85e;
   color: var(--clr-accent);
   text-align: center;
@@ -438,13 +438,14 @@ header {
   text-decoration: none;
 }
 
-
-.footer__link, .github {
+.footer__link,
+.github {
   font-weight: var(--fw-bold);
 }
 
 .footer__link:hover,
-.social-list__link:hover, .github:hover {
+.social-list__link:hover,
+.github:hover {
   opacity: 0.7;
 }
 
@@ -483,11 +484,10 @@ header {
 }
 
 .github {
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   padding: 8px 20px;
-  text-decoration:none;
-  font-weight:bold;
-  border-radius:5px;
-  cursor:pointer;
-  
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
 }
