@@ -394,7 +394,7 @@ header {
 /* My Work */
 
 .my-work {
-  background-color:#6387EF;;
+  background-color:#0b0d13;;
   color: var(--clr-light);
   text-align: center;
 }
@@ -428,7 +428,7 @@ header {
 
 .footer,
 .github {
-  background: #6387EF;;
+  background: #0c0d0f;;
   color: #fff;
   text-align: center;
   padding: 2.5em 0;
