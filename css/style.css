@@ -405,8 +405,9 @@ header {
 }
 
 .portfolio__item {
-  background: var(--clr-accent);
+  background: #0c0d0f;
   overflow: hidden;
+  padding: 5px;
 }
 
 .portfolio__img {
