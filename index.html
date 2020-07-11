@@ -137,6 +137,33 @@
       <p class="section__subtitle section__subtitle--work">
         A selection of my range of work
       </p>
+      <div class="projects">
+       
+        <button  class="btns">Scheduler interview</button>
+        <button class="btns">bugi</button>
+        <button class="btns">Con-Coord</button>
+        <button class="btns">reactivities</button>
+        <button class="btns">dev-connector</button>
+
+        <button onclick="myFunction()">Scheduler interview</button>
+
+        <div id="myDIV">
+        <a href="portfolio-item.html" class="portfolio__item">
+          <img src="img/portfolio-01.jpg" alt="" class="portfolio__img" />
+        </a>
+        </div>
+        
+        
+        <script>
+        function myFunction() {
+          var x = document.getElementById("myDIV");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
 
       <div class="portfolio">
         <!-- Portfolio item 01 -->

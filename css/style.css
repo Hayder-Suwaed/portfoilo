@@ -134,7 +134,7 @@ h3 {
 }
 
 .section__subtitle--work {
-  color: var(--clr-accent);
+  color: rgb(22, 21, 21);
   font-weight: var(--fw-bold);
   margin-bottom: 2em;
 }
@@ -197,7 +197,6 @@ header {
   right: 1em;
   top: 1em;
   z-index: 1000;
-  
 }
 
 .nav-open .nav {
@@ -314,7 +313,7 @@ header {
 }
 
 .section__title--services {
-  color: var(--clr-accent);
+  color: vat(--clr-accent);
   position: relative;
 }
 
@@ -394,8 +393,8 @@ header {
 /* My Work */
 
 .my-work {
-  background-color:#0b0d13;;
-  color: var(--clr-light);
+  background-color: #fff;
+  color: rgb(22, 21, 21);
   text-align: center;
 }
 
@@ -405,7 +404,7 @@ header {
 }
 
 .portfolio__item {
-  background: #0c0d0f;
+  background: #fff;
   overflow: hidden;
   padding: 5px;
 }
@@ -429,8 +428,8 @@ header {
 
 .footer,
 .github {
-  background: #0c0d0f;;
-  color: #fff;
+  background: #fff;
+  color: rgb(15, 14, 14);
   text-align: center;
   padding: 2.5em 0;
   font-size: var(--fs-h3);
@@ -487,10 +486,35 @@ header {
 }
 
 .github {
-  background-color: #eeeeee;
+  background-color: #0f0e0e;
   padding: 8px 20px;
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
+}
+.btns {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* On mouse-over */
+.btns:hover {
+  background: #eee;
+  border-radius: 5px;
+  
+}
+
+.btns:focus{
+  background-color: #ECE7FB;
+  color: #8C78CE;
+  box-shadow: 0 15px 15px -5px rgba(87,51,208,0.1);
 }
