@@ -493,31 +493,20 @@ header {
   border-radius: 5px;
   cursor: pointer;
 }
-.btns {
+/* .btns {
   border: none;
   background-color: inherit;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
-  display: inline-block;
+  display: inline;
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-
+} */
 
 /* On mouse-over */
-.btns:hover {
+/* .btns:hover {
   background: #eee;
   border-radius: 5px;
-  
-}
+} */
 
-.btns:focus{
-  background-color: #ECE7FB;
-  color: #8C78CE;
-  box-shadow: 0 15px 15px -5px rgba(87,51,208,0.1);
-}
-.projects {
-  display: inline-block;
-}
