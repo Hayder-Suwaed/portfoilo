@@ -1,124 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DevJane Portfolio Website</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
-      crossorigin="anonymous"
-    />
 
-    <!-- Update these with your own fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <header>
-      <div class="logo">
-        <img src="img/logo.svg" alt="" />
-      </div>
-      <button class="nav-toggle" aria-label="toggle navigation">
-        <span class="hamburger"></span>
-      </button>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a href="index.html" class="nav__link">Home</a>
-          </li>
-          <li class="nav__item">
-            <a href="index.html#services" class="nav__link">My Services</a>
-          </li>
-          <li class="nav__item">
-            <a href="index.html#about" class="nav__link">About me</a>
-          </li>
-          <li class="nav__item">
-            <a href="#work" class="nav__link">My Work</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevJane Portfolio Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
 
-    <section class="intro">
-      <h1 class="section__title section__title--intro">
-        Scheduler <strong>Interview</strong>
-      </h1>
-      <p class="section__subtitle section__subtitle--intro">
-        Scheduler Interview
-      </p>
-      <img src="img/portfolio-01.jpg" alt="" class="intro__img" />
-    </section>
+  <!-- Update these with your own fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
 
-    <div class="portfolio-item-individual">
-      <p>
+<body>
+  <header>
+    <div class="logo">
+      <img src="img/logo.svg" alt="" />
+    </div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="index.html" class="nav__link">Home</a>
+        </li>
+        <li class="nav__item">
+          <a href="index.html#services" class="nav__link">My Services</a>
+        </li>
+        <li class="nav__item">
+          <a href="index.html#about" class="nav__link">About me</a>
+        </li>
+        <li class="nav__item">
+          <a href="#work" class="nav__link">My Work</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="intro">
+    <h1 class="section__title section__title--intro">
+      Scheduler <strong>Interview</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">
+      Scheduler Interview
+    </p>
+    <img src="img/portfolio-01.jpg" alt="" class="intro__img" />
+  </section>
+
+  <div class="portfolio-item-individual">
+    <p>
+      <ul>
+      <li>
         React SPA application that allows users to book and cancel interviews.
         Data is persisted by the API server using a PostgreSQL database.
-      </p>
-      <img src="img/portfolio-details.jpg" alt="" />
-      <ul>
-        <li>Interviews can be booked between Monday and Friday.</li>
-        <li>A user can switch between weekdays.</li>
-        <li>A user can book an interview in an empty appointment slot.</li>
-        <li>
-          Interviews are booked by typing in a student name and clicking on an
-          interviewer from a list of available interviewers.
-        </li>
-        <li>A user can cancel an existing interview.</li>
-        <li>A user can edit the details of an existing interview.</li>
-        <li>
-          The list of days informs the user how many slots are available for
-          each day.
-        </li>
-        <li>
-          The expected day updates the number of spots available when an
-          interview is booked or canceled.
-        </li>
-        <li>
-          A user is presented with a confirmation when they attempt to cancel an
-          interview.
-        </li>
-        <li>
-          A user is shown an error if an interview cannot be saved or deleted.
-        </li>
-        <li>
-          When a user books or cancels an interview, all connected users see the
-          update in their browser.
-        </li>
-        <a href="https://github.com/Hayder-Suwaed/scheduler" class="code">
-          View code soruce</a
-        >
-      </ul>
-    </div>
+    </p>
+    </li>
+    <img src="img/portfolio-details.jpg" alt="" />
+      <li>Interviews can be booked between Monday and Friday.</li>
+      <li>A user can switch between weekdays.</li>
+      <li>A user can book an interview in an empty appointment slot.</li>
+      <li>
+        Interviews are booked by typing in a student name and clicking on an
+        interviewer from a list of available interviewers.
+      </li>
+      <li>A user can cancel an existing interview.</li>
+      <li>A user can edit the details of an existing interview.</li>
+      <li>
+        The list of days informs the user how many slots are available for
+        each day.
+      </li>
+      <li>
+        The expected day updates the number of spots available when an
+        interview is booked or canceled.
+      </li>
+      <li>
+        A user is presented with a confirmation when they attempt to cancel an
+        interview.
+      </li>
+      <li>
+        A user is shown an error if an interview cannot be saved or deleted.
+      </li>
+      <li>
+        When a user books or cancels an interview, all connected users see the
+        update in their browser.
+      </li>
+    </ul>
+      <a href="https://github.com/Hayder-Suwaed/scheduler" class="code">
+        View code soruce</a>
+  </div>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <!-- replace with your own email address -->
-      <a href="mailto:haiderhachim87@yahoo.com" class="footer__link"
-        >Contact me</a
-      >
-      <ul class="social-list">
-        <li class="social-list__item">
-          <a class="social-list__link" href="https://linkedin.com">
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </li>
-        <li class="social-list__item">
-          <a class="social-list__link" href="https://github.com">
-            <i class="fab fa-github"></i>
-          </a>
-        </li>
-      </ul>
-    </footer>
+  <!-- Footer -->
+  <footer class="footer">
+    <!-- replace with your own email address -->
+    <a href="mailto:haiderhachim87@yahoo.com" class="footer__link">Contact me</a>
+    <ul class="social-list">
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://linkedin.com">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://github.com">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
 
-    <script src="js/index.js"></script>
-  </body>
+  <script src="js/index.js"></script>
+</body>
+
 </html>
