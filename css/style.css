@@ -518,3 +518,6 @@ header {
   color: #8C78CE;
   box-shadow: 0 15px 15px -5px rgba(87,51,208,0.1);
 }
+.projects {
+  display: inline-block;
+}
